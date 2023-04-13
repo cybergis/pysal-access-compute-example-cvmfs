@@ -3,6 +3,7 @@
     "description": "Calculates spatial accessibility using a variety of metrics using the Pysal access package: https://github.com/pysal/access",
     "estimated_runtime": "3-6 minutes",
     "container": "cybergisx/python3-0.9.0",
+    "connector": "SingCVMFSConnector",
     "pre_processing_stage": "bash install_access.sh",
     "execution_stage": "python ChicagoAccess.py",
     "post_processing_stage": "ls",
