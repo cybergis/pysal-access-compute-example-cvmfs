@@ -21,6 +21,13 @@
                 "default_value": 4,
                 "step": 1,
                 "unit": "GB"
+            },
+            "num_of_node": {
+                "max": 1,
+                "min": 1,
+                "default_value": 1,
+                "step": 1,
+                "unit": "nodes"
             }
     },
     "require_upload_data": false,
