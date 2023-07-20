@@ -4,9 +4,7 @@
     "estimated_runtime": "3-6 minutes",
     "container": "cybergisx/python3-0.9.0",
     "connector": "SingCVMFSConnector",
-    "pre_processing_stage": "ls",
     "execution_stage": "python ChicagoAccess.py",
-    "post_processing_stage": "ls",
     "slurm_input_rules": {
            "time": {
                 "max": 30,
@@ -21,13 +19,6 @@
                 "default_value": 4,
                 "step": 1,
                 "unit": "GB"
-            },
-            "num_of_node": {
-                "max": 1,
-                "min": 1,
-                "default_value": 1,
-                "step": 1,
-                "unit": "nodes"
             }
     },
     "require_upload_data": false,
